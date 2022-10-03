@@ -142,26 +142,26 @@ var listSong = [
             image: "./assets/img/music/listSong2/song2.jpg"
         },
         {
-            name: "Độ Tộc 2",
-            singer: ["Masew", "Độ Mixi", "Phúc Du", "Pháo"],
+            name: "Tình Ca Ngọt Ngào",
+            singer: ["Lập Nguyên"],
             path: "./assets/music/listSong2/song3.mp3",
             image: "./assets/img/music/listSong2/song3.jpg"
         },
         {
-            name: "Chúng Ta Của Hiện Tại",
-            singer: ["Sơn Tùng M-TP"],
+            name: "Nụ Cười Em Là Nắng「Nekko Remix」",
+            singer: ["Green"],
             path: "./assets/music/listSong2/song4.mp3",
             image: "./assets/img/music/listSong2/song4.jpg"
         },
         {
-            name: "Em Không Hiểu",
-            singer: ["Changg", "Minh Huy"],
+            name: "See Tình「Cukak Remix」",
+            singer: ["Hoàng Thùy Linh"],
             path: "./assets/music/listSong2/song5.mp3",
             image: "./assets/img/music/listSong2/song5.jpg"
         },
         {
-            name: "Đã Lỡ Yêu Em Nhiều",
-            singer: ["JustaTee"],
+            name: "Suy Nghĩ Trong Em",
+            singer: ["Tú Na"],
             path: "./assets/music/listSong2/song6.mp3",
             image: "./assets/img/music/listSong2/song6.jpg"
         },
@@ -232,8 +232,8 @@ var listSong = [
             image: "./assets/img/music/listSong2/song17.jpg"
         },
         {
-            name: "Anh Không Đòi Quà",
-            singer: ["OnlyC", "Karik"],
+            name: "Đường Tôi Chở Em Về「Cukak Remix」",
+            singer: ["Bui Truong linh"],
             path: "./assets/music/listSong2/song18.mp3",
             image: "./assets/img/music/listSong2/song18.jpg"
         },
@@ -244,16 +244,16 @@ var listSong = [
             image: "./assets/img/music/listSong2/song19.jpg"
         },
         {
-            name: "BlackJack",
-            singer: ["Soobin", "Binz"],
-            path: "./assets/music/listSong2/song20.webm",
+            name: "Đường Quyền Tình Yêu",
+            singer: ["DatKaa x QT Beatz"],
+            path: "./assets/music/listSong2/song20.mp3",
             image: "./assets/img/music/listSong2/song20.jpg"
         },
     ],
     [
         {
-            name: "Cheating On You",
-            singer: ["Charlie Puth"],
+            name: "Trouble Is A Friend Cover",
+            singer: ["Shania Yan"],
             path: "./assets/music/listSong3/song1.mp3",
             image: "./assets/img/music/listSong3/song1.jpg"
         },
@@ -319,8 +319,8 @@ var listSong = [
             image: "./assets/img/music/listSong3/song11.jpg"
         },
          {
-            name: "Peaches",
-            singer: ["Justin Bieber", "Daniel Caesar", "Giveon"],
+            name: "你的答案 ( Ni De Da An) Cover",
+            singer: ["Shania Yan"],
             path: "./assets/music/listSong3/song12.mp3",
             image: "./assets/img/music/listSong3/song12.jpg"
         },
@@ -351,105 +351,105 @@ var listSong = [
     ],
     [
         {
-            name: "Eyes - Đôi mắt",
-            singer: ["G.Ducky"],
+            name: "♪ Bạch Nguyệt Quang và Nốt Chu Sa ♪ (Live)",
+            singer: ["Cúc Văn Nhàn"],
             path: "./assets/music/listSong4/song1.mp3",
             image: "./assets/img/music/listSong4/song1.jpg"
         },
         {
-            name: "Giàu Vì Bạn Sang Vì Vợ",
-            singer: ["RPT MCK"],
+            name: "[Hatsune Miku] Ánh trăng huyền ảo",
+            singer: ["Tiểu Muội Màn Thầu"],
             path: "./assets/music/listSong4/song2.mp3",
             image: "./assets/img/music/listSong4/song2.jpg"
         },
         {
-            name: "Walk On Da Street",
-            singer: ["16 Typh", "16 BrT"],
+            name: "[Vietsub] Đại Thiên Bồng",
+            singer: ["Lộ Gia"],
             path: "./assets/music/listSong4/song3.mp3",
             image: "./assets/img/music/listSong4/song3.jpg"
         },
         {
-            name: "CHƠI",
-            singer: ["HIEUTHUHAI", "MANBO"],
+            name: "Chấp Mê Bất Ngộ (Remix)",
+            singer: ["Tiểu Nhạc Ca 执迷不悟 - 小乐哥"],
             path: "./assets/music/listSong4/song4.mp3",
             image: "./assets/img/music/listSong4/song4.jpg"
         },
         {
-            name: "Thủ Đô Cypher",
-            singer: ["RPT Orijinn", "LOW G", "RZMas", "RPT MCK"],
+            name: "[Vietsub LIVE] Gặp người đúng lúc",
+            singer: ["Cao Tiến"],
             path: "./assets/music/listSong4/song5.mp3",
             image: "./assets/img/music/listSong4/song5.jpg"
         },
     
         {
-            name: "Buông Hàng",
-            singer: ["Young Milo"],
+            name: "Tiêu Dao Tuyệt Nhất|逍遥最好(Như Ý Cát Tường OST)",
+            singer: ["Tiểu Muội Màn Thầu"],
             path: "./assets/music/listSong4/song6.mp3",
             image: "./assets/img/music/listSong4/song6.jpg"
         },
         {
-            name: "Người Chơi Hệ Đẹp",
-            singer: ["16 Typh"],
+            name: "Pháo Hoa Lúc Hoàng Hôn",
+            singer: ["TiểuMuộiMànThầu"],
             path: "./assets/music/listSong4/song7.mp3",
             image: "./assets/img/music/listSong4/song7.jpg"
         },
         {
-            name: "Ghé Qua",
-            singer: ["Dick ", "PC", "Tofu"],
+            name: "Tiếu Nạp (笑纳 Xiao Na)",
+            singer: ["Phùng Đề Mạc (冯提莫 Feng Timo)"],
             path: "./assets/music/listSong4/song8.mp3",
             image: "./assets/img/music/listSong4/song8.jpg"
         },
         {
-            name: "Đìu Anh Luôn Giữ Kín Trong Tym",
-            singer: ["RPT MCK", "tlinh", "2pillz "],
+            name: "5cm/s AMV - Sakura anata ni deaete yokatta",
+            singer: ["K.Rai"],
             path: "./assets/music/listSong4/song9.mp3",
             image: "./assets/img/music/listSong4/song9.jpg"
         },
         {
-            name: "Xích Thêm Chút",
-            singer: ["RPT Groovie", "TLinh", "RPT MCK"],
+            name: "Love is a Beautiful Pain",
+            singer: ["CLIFF EDGE"],
             path: "./assets/music/listSong4/song10.mp3",
             image: "./assets/img/music/listSong4/song10.jpg"
         },
         {
-            name: "Tay To",
-            singer: ["RPT MCK", "RPT PhongKhin"],
+            name: "Thiên Hạ Hữu Tình Nhân| Ost Thần Điêu Đại Hiệp 1995",
+            singer: ["JUKY SAN"],
             path: "./assets/music/listSong4/song11.mp3",
             image: "./assets/img/music/listSong4/song11.jpg"
         },
         {
-            name: "SIMPLE LOVE",
-            singer: ["Obito", "Seachains", "Davis", "Lena"],
+            name: "Một Giấc Mộng Xưa - A Du Du",
+            singer: ["Lee Phú Quý"],
             path: "./assets/music/listSong4/song12.mp3",
             image: "./assets/img/music/listSong4/song12.jpg"
         },
         {
-            name: "Va Vào Giai Điệu Này",
-            singer: ["RPT MCK"],
+            name: "Luyến Nhân Tâm (Lời Việt)",
+            singer: ["Lee Phú Quý"],
             path: "./assets/music/listSong4/song13.mp3",
             image: "./assets/img/music/listSong4/song13.jpg"
         },
          {
-            name: "Em Gái",
-            singer: ["Blaise", "Low G"],
+            name: "Anh Sẽ Luôn Thật Gần",
+            singer: ["Khắc Việt"],
             path: "./assets/music/listSong4/song14.mp3",
             image: "./assets/img/music/listSong4/song14.jpg"
         },
         {
-            name: "OK",
-            singer: ["Binz"],
+            name: "Tình yêu không thể nắm giữ Hold不住的爱",
+            singer: ["Long Mai Tử & Lão Miêu"],
             path: "./assets/music/listSong4/song15.mp3",
             image: "./assets/img/music/listSong4/song15.jpg"
         },
         {
-            name: "Gene",
-            singer: ["Binz"],
+            name: "Tát Nhật Lãng Rực Rỡ (火红的萨日朗)",
+            singer: ["Fanny"],
             path: "./assets/music/listSong4/song16.mp3",
             image: "./assets/img/music/listSong4/song16.jpg"
         },
          {
-            name: "They Said",
-            singer: ["Binz"],
+            name: "ROLY POLY T-ARA (Vietnamese cover)",
+            singer: ["Fanny"],
             path: "./assets/music/listSong4/song17.mp3",
             image: "./assets/img/music/listSong4/song17.jpg"
         },

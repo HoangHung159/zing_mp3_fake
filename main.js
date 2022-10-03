@@ -1,12 +1,9 @@
 'use strict';
-
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 const PLAYER_STORAGE_KEY = 'VIK_PLAYER';
 const DURATION_STORAGE_KEY = 'VIK_DURATION';
-
-
 
 const appContainers = Array.from($$('.app__container'));
 const audio = $('#audio');
@@ -84,7 +81,6 @@ const volumeBtns = Array.from($$('.player__options-btn.volume.option-btn'))
 const volumeTracks = Array.from($$('.progress__track.volume--track .progress__track-update'));
 const volumeIcons = Array.from($$('.volume .btn--icon'));
 const App = $('.app');
-
 
 const app = {
     isPlaying: false,
@@ -998,7 +994,6 @@ const app = {
         })
     },
 
-
     render : function() {
         // Render songs
         this.renderSong()
@@ -1066,7 +1061,6 @@ const app = {
         })
     },
 
-
     handleEvents: function() {
         const _this = this;
         const playBtns = Array.from($$('.btn-toggle-play.btn--play-song'));
@@ -1092,7 +1086,6 @@ const app = {
                 sidebarSubnav.classList.remove('has-mask')
             }
         }
-
 
         // Set background for header when scroll
         appContainers.forEach(appContainer => {
@@ -1180,7 +1173,6 @@ const app = {
             audio.play();
         }
 
-
         // When the song progress changes
         audio.ontimeupdate = function(e) {
             if (audio.duration) {
@@ -1238,7 +1230,6 @@ const app = {
             progressChild.addEventListener('touchmove', currentTime);
         })
 
-
         function seekStart() {
             if(audio.duration) {
                 _this.isSeeking = true;
@@ -1260,9 +1251,6 @@ const app = {
             progressChild.ontouchend = seekEnd;
         })
 
-
-        
-
         //  Handle CD spins / stops
         _this.smoothAnimation(popUpCdThumb)
         const popUpCdThumbAnimate = popUpCdThumb.animate([
@@ -1273,9 +1261,7 @@ const app = {
             iterations: Infinity,
         })
         popUpCdThumbAnimate.pause()
-        
-        
-
+    
         // When next song
         nextBtns.forEach(nextBtn => {
             nextBtn.onclick = function() {
@@ -1326,10 +1312,6 @@ const app = {
             }
         })
 
-
-
-
-
         // Handle click on player
         player.onclick = (e) => {
             const authorNode = e.target.closest('.player__container .player__song-info.media .player__song-author.info__author')
@@ -1376,7 +1358,6 @@ const app = {
                     }
                 }
 
-
                 //Handle when click on song checkbox
                 if(checkNode) {
                     checkNode.onclick = function(e) {
@@ -1384,8 +1365,7 @@ const app = {
                         e.target.closest('.playlist__list-song').classList.toggle('active', inputCheck.checked)
                     }
                 }
-
-    
+   
                 // Handle when clicking on the song option
                 if(optionNode) {
                 
@@ -1457,8 +1437,7 @@ const app = {
                 }
             }
         })
-
-        
+       
         volumes.forEach((volume, index) => {
             volume.onchange = function(e) {
                 changeVolume(index);
@@ -1490,7 +1469,6 @@ const app = {
             })
         })
 
-
         //Handle slide show
         let imgIndex = 2;
         function slideShow() {
@@ -1511,9 +1489,7 @@ const app = {
 
         slideShow();
 
-
-        
-        // Handle when click on navbar
+         // Handle when click on navbar
         navbarItems.forEach((navbarItem, index) => {
             navbarItem.onclick = function() {
                 $('.content__navbar-item.active').classList.remove('active')
@@ -1534,7 +1510,6 @@ const app = {
                 containerTabs[index + 1].classList.add('active')
             }
         })
-
 
         //***  Handle when click button move Album, Playlist, MV and Artist on tab HOME
         // Playlist
@@ -1591,9 +1566,7 @@ const app = {
         radioTabMoveBtns[1].onclick = function() {
             _this.showSlides(7, 8, radioLists[1], radioTabMoveBtns)
         }
-
-
-        
+     
         // Handle when click on Playlist Item
         const playlistItems = $$('.tab-home .playlist--container .row__item.item--playlist:not(.playlist--create)')
         Array.from(playlistItems).forEach((playlist, index) => {
@@ -1610,10 +1583,7 @@ const app = {
                 _this.loadCurrentPlaylist(playlistBtn, index)
             }
         })
-
-
-
-        
+      
         // Handle when click on icons heart
         const heartIconBtns = $$('.btn--heart');
         Array.from(heartIconBtns).forEach(heartIconBtn => {
@@ -1641,7 +1611,6 @@ const app = {
         closeModalBtn.onclick = (e) => {
             modalTheme.classList.remove('open')
         }
-
 
         // Handle change theme method
         listThemes.forEach((listTheme,themeIndex) => {
@@ -1696,7 +1665,6 @@ const app = {
             e.preventDefault()
         }
 
-
         // Handle when click on expand sidebar button on tablet
         sidebarExpandBtn.onclick = (e) => {
             sidebar.classList.add('expand');
@@ -1704,8 +1672,6 @@ const app = {
         sidebarShrinkBtn.onclick = (e) => {
             sidebar.classList.remove('expand')
         }
-
-
 
         // Handle when click on sidebar items 
         sidebarNavItems.forEach((sidebarNavItem, index) => {
@@ -1729,7 +1695,6 @@ const app = {
                 showNotificationToast('Tính năng hiện chưa được cập nhật, bạn vui lòng thông cảm!')
             }
         })
-
 
         // Handle when click on explore slide show move buttons
         function exploreSlideShow() {
@@ -1755,7 +1720,6 @@ const app = {
         }
         
         exploreSlideShow()
-
 
         // Singer slide on explore tab
         function singerSlideShow(step, order, index, listBtns) {
@@ -1934,14 +1898,11 @@ const app = {
             favArtistSlideShow(2)
         }
 
-
-
         //****** Tab charts
         // Handle when click on expand btn
         chartExpandBtn.onclick = (e) => {
             chartSongContainer.classList.add('expand-song');
         }
-
 
         // ****** Tab following
         storyActions.forEach(storyAction => {
@@ -2257,51 +2218,6 @@ const app = {
  
     },
 
-    // getSlideIndex(currentIndex, slideOrder, listItems, step) {
-    //     if (currentIndex + step > listItems.length) {
-    //         this.slideIndexs[slideOrder] = listItems.length;
-    //         this.scrollToRight[slideOrder] = false;
-    //     }
-    //     if (currentIndex + step < 1) {
-    //         this.slideIndexs[slideOrder] = 1;
-    //         this.scrollToRight[slideOrder] = true;
-    //     }
-    //     return currentIndex
-    // },
-
-    // pickSlides(step, slideOrder, listBtns) {
-    //     const listItems = $$(this.slideSelectors[slideOrder])
-
-    //     const currentIndex = this.getSlideIndex(this.slideIndexs[slideOrder] += step, slideOrder, listItems, step);
-    //     if (currentIndex + step > listItems.length) {
-    //         listBtns[1].classList.add('button--disabled')
-    //         listBtns[0].classList.remove('button--disabled')
-    //     } else if (currentIndex + step < 1) {
-    //         listBtns[0].classList.add('button--disabled')
-    //         listBtns[1].classList.remove('button--disabled')
-    //     } else {
-    //         Array.from(listBtns).forEach(itemBtn => {
-    //             itemBtn.classList.remove('button--disabled')
-    //         })
-    //     }
-    //     // Scroll Into View
-    //     if( this.scrollToRight[slideOrder] === true) {
-    //         listItems[this.slideIndexs[slideOrder] - 1].scrollIntoView({
-    //             behavior: 'smooth',
-    //             block: 'nearest',
-    //             inline: 'start'
-    //         })
-    //     } else if (this.scrollToRight[slideOrder] === false) {
-    //         listItems[this.slideIndexs[slideOrder] - 1].scrollIntoView({
-    //             behavior: 'smooth',
-    //             block: 'nearest',
-    //             inline: 'end'
-    //         })
-    //     }
-    // },
-
-
-
     start: function() {
         // Setup duration time to render
         this.setUpRender()
@@ -2321,7 +2237,7 @@ const app = {
         // Listening / handling events (DOM events)
         this.handleEvents();
         
-    }
+    },
 
 }
 

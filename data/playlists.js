@@ -5,18 +5,18 @@ var listPlaylist = [
         image: "./assets/img/playlists/playlist1.jpg"
     },
     {
-        name: "Rồi Tới Luôn",
-        creator: "Nal",
+        name: "Nhạc Tình Yêu",
+        creator: "Love",
         image: "./assets/img/playlists/playlist2.jpg"
     },
     {
         name: "Nhạc Q.Tế",
-        creator: "Lạc Trôi",
+        creator: "More and More",
         image: "./assets/img/playlists/playlist3.jpg"
     },
     {
-        name: "Những bản hit của Rap Việt",
-        creator: "Bigcityboi",
+        name: "Nhạc china and japan",
+        creator: "china and japan",
         image: "./assets/img/playlists/playlist4.jpg"
     },
     {

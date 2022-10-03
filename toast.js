@@ -49,9 +49,6 @@ function toast ({
     }
 }
 
-
-
-
 function showNotificationToast(message) {
     toast({
         title: 'Thông báo',
