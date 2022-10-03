@@ -251,12 +251,7 @@ var listSong = [
         },
     ],
     [
-        {
-            name: "Trouble Is A Friend Cover",
-            singer: ["Shania Yan"],
-            path: "./assets/music/listSong3/song1.mp3",
-            image: "./assets/img/music/listSong3/song1.jpg"
-        },
+        
         {
             name: "I Do",
             singer: ["911"],
@@ -318,12 +313,6 @@ var listSong = [
             path: "./assets/music/listSong3/song11.mp3",
             image: "./assets/img/music/listSong3/song11.jpg"
         },
-         {
-            name: "你的答案 ( Ni De Da An) Cover",
-            singer: ["Shania Yan"],
-            path: "./assets/music/listSong3/song12.mp3",
-            image: "./assets/img/music/listSong3/song12.jpg"
-        },
         {
             name: "Stay",
             singer: ["The Kid LAROI", "Justin Bieber"],
@@ -355,6 +344,18 @@ var listSong = [
             singer: ["Cúc Văn Nhàn"],
             path: "./assets/music/listSong4/song1.mp3",
             image: "./assets/img/music/listSong4/song1.jpg"
+        },
+        {
+            name: "Trouble Is A Friend Cover",
+            singer: ["Shania Yan"],
+            path: "./assets/music/listSong3/song1.mp3",
+            image: "./assets/img/music/listSong3/song1.jpg"
+        },
+        {
+            name: "你的答案 ( Ni De Da An) Cover",
+            singer: ["Shania Yan"],
+            path: "./assets/music/listSong3/song12.mp3",
+            image: "./assets/img/music/listSong3/song12.jpg"
         },
         {
             name: "[Hatsune Miku] Ánh trăng huyền ảo",

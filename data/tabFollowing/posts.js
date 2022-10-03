@@ -39,13 +39,6 @@ var listPost = [
     ],
     [
         {
-            name: "Lăng LD",
-            time:"14 tháng 10 lúc 00:35",
-            content: "Tươm tất vậy đó để đi mua cà phê take away chứ chưa được ngồi lại nghen😁",
-            authorAvatar: "./assets/img/tabFollowing/storys/avatars/artist6.jpg",
-            image: "./assets/img/tabFollowing/storys/posts/artist6.jpg"
-        },
-        {
             name: "Sơn Tùng M-TP",
             time:"14 tháng 10 lúc 00:33",
             content: "Anh đoán tên em là Google. </br>Bởi vì em có mọi thứ mà anh đang tìm kiếm ❤️",

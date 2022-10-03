@@ -57,47 +57,6 @@ var listMV = [
         authorAvatar: "./assets/img/mvArtists/artist8.jpg",
         image: "./assets/img/MVs/mv8.jpg"
     },
-    {
-        name: "Đừng Về Trễ (Acoustic Version)",
-        author: ["Sơn Tùng MTP"],
-        time: "04:41",
-        authorAvatar: "./assets/img/mvArtists/artist9.jpg",
-        image: "./assets/img/MVs/mv9.jpg"
-    },
-    {
-        name: "Hơn Cả Yêu",
-        author: ["Đức Phúc"],
-        time: "05:43",
-        authorAvatar: "./assets/img/mvArtists/artist10.jpg",
-        image: "./assets/img/MVs/mv10.jpg"
-    },
-    {
-        name: "Vì Yêu Cứ Đâm Đầu",
-        author: ["MIN", "Đen", "JustaTee"],
-        time: "04:01",
-        authorAvatar: "./assets/img/mvArtists/artist11.jpg",
-        image: "./assets/img/MVs/mv11.jpg"
-    },
-    {
-        name: "Sao Anh Chưa Về Nhà",
-        author: ["AMEE", "Ricky Star"],
-        time: "04:36",
-        authorAvatar: "./assets/img/mvArtists/artist12.jpg",
-        image: "./assets/img/MVs/mv12.jpg"},
-    {
-        name: "Bigcityboi",
-        author: ["Binz", "Touliver"],
-        time: "03:43",
-        authorAvatar: "./assets/img/mvArtists/artist13.jpg",
-        image: "./assets/img/MVs/mv13.jpg"
-    },
-    {
-        name: "Em Không Sai Chúng Ta Sai",
-        author: ["ERIK"],
-        time: "06:28",
-        authorAvatar: "./assets/img/mvArtists/artist14.jpg",
-        image: "./assets/img/MVs/mv14.jpg"
-    },
 ];
 
 const MV_STORAGE_KEY = 'VIK_MV';

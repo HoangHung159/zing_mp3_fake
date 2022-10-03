@@ -161,9 +161,7 @@ const app = {
     setConfig: function(key, value) {
         this.config[key] = value;
         localStorage.setItem(PLAYER_STORAGE_KEY, JSON.stringify(this.config));
-    },
-
-    
+    },    
 
     html([first, ...string], ...values) {
         return values.reduce(

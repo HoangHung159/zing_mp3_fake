@@ -236,85 +236,9 @@ var listNormalPlaylist = [
                 name: "Ghi-đông Radio",
                 artists: [],
                 image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist5.jpg"
-            },
-            {
-                name: "Trạm Radio",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist6.jpg"
-            },
-            {
-                name: "Chàng-Ngốc-Già",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist7.jpg"
-            },
-            {
-                name: "Lam's Story",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist8.jpg"
-            },
-            {
-                name: "Luyện Nghe Tiếng Anh Hàng Ngày - Ms Thuỷ KISS English",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist9.jpg"
-            },
-            {
-                name: "Nằm nghe đọc truyện - Hathaya Audio",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist10.jpg"
-            },
-            {
-                name: "Cạn Ly",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist11.jpg"
-            },
-            {
-                name: "Nghe Lỏm",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist12.jpg"
-            },
-            {
-                name: "Tóm Tắt Sách Cùng Tanya",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist13.jpg"
-            },
-            {
-                name: "Career Success | Take Away Series",
-                artists: [],
-                image: "./assets/img/tabRadio/normalPlaylists/playlistList1/playlist14.jpg"
-            },
+            },         
         ],
-    },
-    // {
-    //     header: "",
-    //     playlists: [
-    //         {
-    //             name: "",
-    //             artists: ["", "", ""],
-    //             image: "./assets/img/tabExplore/normalPlaylists/playlistList1/playlist1.jpg"
-    //         },
-    //         {
-    //             name: "",
-    //             artists: ["", "", ""],
-    //             image: "./assets/img/tabExplore/normalPlaylists/playlistList1/playlist2.jpg"
-    //         },
-    //         {
-    //             name: "",
-    //             artists: ["", "", ""],
-    //             image: "./assets/img/tabExplore/normalPlaylists/playlistList1/playlist3.jpg"
-    //         },
-    //         {
-    //             name: "",
-    //             artists: ["", "", ""],
-    //             image: "./assets/img/tabExplore/normalPlaylists/playlistList1/playlist4.jpg"
-    //         },
-    //         {
-    //             name: "",
-    //             artists: ["", "", ""],
-    //             image: "./assets/img/tabExplore/normalPlaylists/playlistList1/playlist5.jpg"
-    //         },
-    //     ],
-    // },
-    
+    },  
 ];
 
 const NORMAL_PLAYLIST_STORAGE_KEY = 'VIK_NORMAL_PLAYLIST';

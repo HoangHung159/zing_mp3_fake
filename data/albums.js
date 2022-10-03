@@ -39,25 +39,6 @@ var listAlbum = [
         name: "Random Access Memories",
         image: "./assets/img/albums/album10.jpg"
     },
-    {
-        name: "Map of the Soul: 7",
-        image: "./assets/img/albums/album11.jpg"
-    },
-    {
-        name: "Chromatica",
-        image: "./assets/img/albums/album12.jpg"},
-     {
-         name: "My Turn",
-        image: "./assets/img/albums/album13.jpg"
-    },
-    {
-        name: "Meet the Woo 2",
-        image: "./assets/img/albums/album14.jpg"
-    },
-    {
-        name: "Lemonade",
-        image: "./assets/img/albums/album15.jpg"
-    },
 ];
 
 const ALBUM_STORAGE_KEY = 'VIK_ALBUM';
