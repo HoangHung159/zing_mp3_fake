@@ -10,13 +10,13 @@ var listPlaylist = [
         image: "./assets/img/playlists/playlist2.jpg"
     },
     {
-        name: "Nhạc Q.Tế",
+        name: "Nhạc Youtube",
         creator: "More and More",
         image: "./assets/img/playlists/playlist3.jpg"
     },
     {
-        name: "Nhạc china and japan",
-        creator: "china and japan",
+        name: "Nhạc China",
+        creator: "China",
         image: "./assets/img/playlists/playlist4.jpg"
     },
     {

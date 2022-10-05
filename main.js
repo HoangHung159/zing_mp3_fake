@@ -1569,7 +1569,7 @@ const app = {
         const playlistItems = $$('.tab-home .playlist--container .row__item.item--playlist:not(.playlist--create)')
         Array.from(playlistItems).forEach((playlist, index) => {
             playlist.onclick = (e) => {
-                const playlistBtn = e.target.closest('.btn--play-playlist')
+                const playlistBtn = e.target.closest('.item--playlist')
                 _this.loadCurrentPlaylist(playlistBtn, index)
             }
         })
@@ -1577,7 +1577,7 @@ const app = {
         const tabPlaylistItems = $$('.tab-playlist .playlist--container .row__item.item--playlist:not(.playlist--create)')
         Array.from(tabPlaylistItems).forEach((playlist, index) => {
             playlist.onclick = (e) => {
-                const playlistBtn = e.target.closest('.btn--play-playlist')
+                const playlistBtn = e.target.closest('.item--playlist')
                 _this.loadCurrentPlaylist(playlistBtn, index)
             }
         })

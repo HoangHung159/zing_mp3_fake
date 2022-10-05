@@ -1,10 +1,8 @@
 /* Mobile and tablet */
-@media (max-width: 63.9375em) {
-    .hide-on-tablet-mobile {
-        display: none;
+    @media (max-width: 63.9375em) {
+        .hide-on-tablet-mobile {
+            display: none;
     }
-
-    
 
     .playlist__song-time.media__content,
     .playlist__header-time,
@@ -13,20 +11,15 @@
         display: none;
     }
 
-
     /* Sidebar */
     .sidebar__nav-item.active {
         border: none;
     }
 
-
     /* Header */
     .header {
         width: calc(100% - 70px);
     }
-
-
-    
 
     /* Container content */
     .content__container {
@@ -39,16 +32,11 @@
         padding: 5px;
     }
 
-
     /* Player */
     .control-btn {
         min-width: 45px;
         height: 45px;
     }
-
-
-    
-
 }
 
 /* Tablet */
@@ -56,11 +44,6 @@
     .hide-on-tablet {
         display: none;
     }
-
-    :root {
-        
-    }
-
 
     /* App container */
     .app__container {
@@ -212,27 +195,20 @@
         max-width: 130px;
     }
 
-
     /* Player pop-up window */
     .player__popup-cd-display {
         width: 280px;
     }
 
-
-
     /* Tab explorer */
     .explore__slide--container {
         min-height: 16vw;
-    }
-    
-    .explore__slide-item {
     }
 
     /* Tab following */
     .media__info-header .info__title {
         max-width: calc(100% - 90px)
     }
-
 }
 
 /* Mobile */
@@ -253,9 +229,7 @@
     .header__button {
         display: none;
     }
-
-    
-    
+  
     /* Sidebar */
     .app__sidebar {
         position: fixed;
@@ -266,7 +240,6 @@
         height: var(--player-height);
         background-color: var(--layout-bg);
         border-top: 1px solid rgba(255, 255, 255, 0.1);
-
     }
 
     .sidebar__nav {
@@ -310,8 +283,6 @@
         transform: translateY(1px);
     }
 
-
-
     .sidebar__nav-list.sidebar__nav-list--separate::before {
         display: none;
     }
@@ -322,8 +293,6 @@
         padding: 0 10px;
     }
 
-
-
     /* App header */
     .app__header-bg {
         height: 30px;
@@ -332,7 +301,6 @@
     .app__header-overlay {
         height: 150px;
     }
-
 
     .app__header-container {
         height: 150px;
@@ -368,9 +336,6 @@
         min-width: calc(100vw / 5);
     }
 
-
-
-
     /* Playlist - list song */
     .container__playlist .playlist__header-title {
         padding-left: 0;
@@ -388,8 +353,6 @@
     .row__item-actions .action-btn {
         display: none;
     }
-
-
 
     /* Player */
     .player {
@@ -420,7 +383,6 @@
     .player__song-info.playing {
         transform: translateX(10px);
     }
-
 
     @keyframes circularMotion1 {
         0% {
@@ -487,15 +449,12 @@
         width: 40px;
     }
 
-
-
     .player__container .player__control {
         flex: 0;
         width: 90px;
         height: 100%;
     }
-    
-    
+      
     .player__container .btn-random,
     .player__container .btn-prev,
     .player__container .btn-repeat {
@@ -520,7 +479,6 @@
         border: none;
     }
 
-
     /* Player pop-up window */
     .player__popup {
         height: 100%;
@@ -539,7 +497,6 @@
         height: 38px;
     }
 
-
     .player__popup-item {
         padding: 7px 5px;
     }
@@ -557,9 +514,6 @@
         height: calc(var(--player-height) * 2)
     }
     
-
-
-
     /* Modal theme */
     .modal-container {
         max-height: 400px;
@@ -585,9 +539,6 @@
         width: 100%;
         height: 100%;
     }
-
-
-
 
     /* Tab explorer */
     .explore__slide--container {
@@ -632,8 +583,6 @@
         right: 10px;
     }
 
-
-
     /* Radio */
     .radio__logo {
         top: 90%;
@@ -642,7 +591,6 @@
         height: 35px;
     }
 
-
     /* Label */
     .row__item-info.radio--info .info__title {
         width: 100%;
@@ -650,7 +598,6 @@
         line-height: 2rem;
         font-weight: 600;
     }
-
 
     /* Explore playlist */
     .explore-playlist--info .row__info-name {
@@ -666,8 +613,6 @@
         line-height: 2.2rem;
     }
 
-
-
     /* Tab charts */
     .playlist__list-charts .playlist__song-body {
         max-width: calc(100% - 123px);
@@ -681,8 +626,6 @@
         width: 50px;
     }
     
-
-
     /* Tab following */
     .following__navbar-item {
         min-width: 70px;
@@ -696,8 +639,6 @@
         max-width: 55%;
     }
 
-    
-
     /* Toast */
     #toast {
         right: 10px;
@@ -707,5 +648,4 @@
         max-width: calc(90vw - 10px);
         min-width: calc(80vw - 10px);
     }
-
 }
